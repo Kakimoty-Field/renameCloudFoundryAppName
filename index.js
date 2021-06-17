@@ -145,5 +145,6 @@ async function updateStatus(token, guid, name)
      });
  }
 
+ exports.main = main;
 
  //main({targetName:"kakimoty-field-nr"});
