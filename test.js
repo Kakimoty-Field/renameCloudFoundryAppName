@@ -7,5 +7,8 @@ ret = target.main({targetName : ""});
 console.log(ret);
 
 
-ret = target.main({targetName : "AppName"});
+ret = target.main(
+    {targetName : "AppName", 
+    PASS_WORD : "TEST", 
+    USER_NAME : "hoge"});
 console.log(ret);

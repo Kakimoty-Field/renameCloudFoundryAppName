@@ -15,8 +15,8 @@
  const API_URLPARTS_GETTOKEN = "oauth/token";
  const API_URL_APP = "https://api.ng.bluemix.net/v3/apps";
 
- const ENV_USERNAME=process.env.USERNAME;
- const ENV_PASSWORD=process.env.PASSWORD;
+ var ENV_USERNAME=process.env.USERNAME;
+ var ENV_PASSWORD=process.env.PASSWORD;
 
 //
 // エントリーポイント
@@ -24,6 +24,9 @@
  async function main(params) {
     if( !params || !params.targetName) return { message : "No Param" };
 
+    ENV_USERNAME = params.USER_NAME || process.env.USERNAME;
+    ENV_PASSWORD = params.PASS_WORD || process.env.PASSWORD;
+       
     var targetName = params.targetName;
 
     var ret = await getBaseURL();
