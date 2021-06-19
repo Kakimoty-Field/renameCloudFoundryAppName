@@ -1,11 +1,9 @@
 {
-  "name": "restartcloudfoundry",
+  "name": "renameCloudFoundryAppName",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "querystring": "^0.2.1"
-  }
+  "dependencies": {}
 }

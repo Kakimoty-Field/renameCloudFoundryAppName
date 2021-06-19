@@ -1,3 +1,29 @@
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [IBM Cloud Shell](#ibm-cloud-shell)
+  - [使い方](#使い方)
+- [IBM Cloud CLI](#ibm-cloud-cli)
+  - [設定・準備 (Cloud Foundry / Functions など…)](#設定準備-cloud-foundry-functions-など)
+  - [現在の設定確認](#現在の設定確認)
+  - [リージョン変更](#リージョン変更)
+    - [リージョン一覧確認](#リージョン一覧確認)
+    - [リージョン設定](#リージョン設定)
+  - [リソースグループ設定](#リソースグループ設定)
+    - [リソースグループ一覧確認](#リソースグループ一覧確認)
+    - [リソースグループ設定](#リソースグループ設定-1)
+  - [組織設定(Org)](#組織設定org)
+    - [組織一覧確認](#組織一覧確認)
+    - [組織設定](#組織設定)
+  - [スペース設定(Space)](#スペース設定space)
+    - [スペース一覧確認](#スペース一覧確認)
+    - [スペース設定](#スペース設定)
+
+<!-- /code_chunk_output -->
+
+
 # IBM Cloud Shell 
 IBM Cloud にログインすると無料で [IBM Cloud Shell](https://www.ibm.com/cloud/cloud-shell) という環境が利用できます。
 
